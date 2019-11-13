@@ -1,0 +1,15 @@
+spring:
+  data:
+    elasticsearch:
+      cluster-name: docker-cluster
+      cluster-nodes: 47.107.117.189:9300
+      repositories:
+        enabled: true
+  datasource:
+    url: jdbc:mysql://47.107.117.189:3366/resource_com?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    driverClassName: com.mysql.cj.jdbc.Driver
+    username: dms
+    password: ali@YUN,520
+    type: com.alibaba.druid.pool.DruidDataSource
+
+
